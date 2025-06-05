@@ -1,0 +1,41 @@
+Generative AI is a Artificial Intilligence system that produces high quality content specifically text, audio and vedios.
+Ex: Chat GPT, Bard ( Google) and Bing Chat(Microsoft)
+
+AI already exists in our lifes.
+Ex: Fruad detection when using cards. recommondations in Amazon, netflix etc. 
+
+Gen AI generates text along with beautiful images and videos
+
+AI is set of tools that has Supervised Learning, Un Supervised Learning, Reenforcement Learning, Generative AI
+
+Gen AI is basically using Supervised Learning
+
+Supervised Learning (Labeling)
+
+Ex: 
+Input (A)                                                           Output(B)                Application
+Email     -> Decide whether the email is spam or not                Spam(0/1)                Spam Filtering
+Ads       -> Whether customers like add or not                      Click(0/1)               Online Adventisement
+Image and radder info -> identiy the position of the cars           positions of the cars    Self driving cars          
+X-Ray     ->                                                        Diagnosis                Healthcare
+Restarunet -> identify the business is good or not                  Sentiment                Reputation
+Audio recording                                                     Text Transacript         Speech Recognition
+
+LLM (Large Language Models) are build based on Supervised Learning (A->B with the given input produce output) to repetidly identify the next word.
+
+When we train very large AI systme with lot of data, we get Large Language model like Chat GPT
+Imagine you start a sentence, like "I love eating," and the AI can finish it with different ideas, such as "bagels with cream cheese" or "my mother's meatloaf." 
+This ability comes from a special kind of technology called large language models (LLMs), which learn from a huge amount of text data to understand how words fit together.
+
+Ex of tasks that LLM can carry out:
+Reading the comments from the reviews and identify whether they are complaints or not
+
+We have Web based LLMs ( search some topics in internet) and Software based LLMs (Specific to company -> Reading the comments from the reviews and identify whether they are complaints or not)
+
+LLM are below types
+Web Based internet applications ex: like chatGPT,bard and Bing .
+Software based applications ex: email routing , document search etc.
+
+For example, if you run an online store and receive many customer emails, Generative AI can quickly read through them and tell you if any of them are complaints. 
+This way, you can handle issues faster and keep your customers happy. Just like how a good friend helps you sort through your thoughts, Generative AI helps businesses manage information efficiently.
+
