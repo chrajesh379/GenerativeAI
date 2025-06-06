@@ -1,5 +1,8 @@
 pip install openai
 
+https://community.openai.com/t/issue-with-openai-chatcompletion-create-in-latest-openai-python-library/926301/8
+https://medium.com/@rmcaduyac1_30165/restaurant-based-chatbot-using-openai-model-deployed-through-chainlit-6382c57fad5c
+
 import openai
 import os
 openai.api_key = os.getenv("OPENAI_API_KEY")
