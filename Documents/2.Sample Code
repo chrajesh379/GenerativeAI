@@ -1,0 +1,26 @@
+pip install openai
+
+import openai
+import os
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def llm_response(prompt):
+    response = openai.ChatCompletion.create(model="gpt-3.5-turbo",messages=[{"role": "user", "content": prompt}])
+    return response.choices[0].message['content']
+
+
+all_reviews = [
+    'The Apple is Good!',
+    'Best Chicken soup dumplings I have ever eaten.',
+    'Not worth the long  wait for a reservation.',
+    'The beautiful tablecloths made me smile!',
+    'The pasta was hot.'
+]
+
+all_sentenses = []
+for review in all_reviews:
+    prompt = f"""Classfiy the following review as having either postive or negative. State your answer as a single word, either "postive" or "negative: {review}"""
+    response=llm_response(prompt)
+    all_sentenses.append(response)
+
+print(all_sentenses)
