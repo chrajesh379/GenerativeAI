@@ -39,3 +39,21 @@ Software based applications ex: email routing , document search etc.
 For example, if you run an online store and receive many customer emails, Generative AI can quickly read through them and tell you if any of them are complaints. 
 This way, you can handle issues faster and keep your customers happy. Just like how a good friend helps you sort through your thoughts, Generative AI helps businesses manage information efficiently.
 
+Writing:
+Ex: Giving the suggestions and writing press release. Ex: If new CEO joined and need to give press release about the CEO, we can give the basic infomation about the CEO, and details
+ to provide the output for the press release
+
+Reading:
+Summarizing the articles or reading the entire PDFS and provide high level information.
+
+Chatting:
+Specilized Chatbots
+
+Limitions
+Knowledge Cutoff. LLM doesn't have information about latest news.
+Gen AI not work well with structured data, but works best with Unstructured data
+
+Supervised Learning: 
+get Labeled Data (1 month) -> Train the AI model(3month) -> deploy the model to prod (3month)
+Prompt based AI 
+Specify the Prompt (in hours) -> Deploy the model ( in hours/Days)
