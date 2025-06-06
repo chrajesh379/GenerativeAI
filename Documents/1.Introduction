@@ -57,3 +57,16 @@ Supervised Learning:
 get Labeled Data (1 month) -> Train the AI model(3month) -> deploy the model to prod (3month)
 Prompt based AI 
 Specify the Prompt (in hours) -> Deploy the model ( in hours/Days)
+
+Life Cycle of the Gen AI:
+
+Scope of the Project -> Build/Improve the System -> internal Team evalution -> Deploy and monitor
+Building Gen AI is expermintal process. We repetadly find and fix the mistakes
+
+Tools to Improve the performces:
+Prompting -> Try an idea and see the responce and get the LLM response
+RAG ( Retrival Augemented Generation) : Give LLM access to external data sources
+Fine Tune models
+Pretrain Models
+
+
